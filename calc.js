@@ -259,4 +259,4 @@
             init($(this));
         });
     });
-}(jQuery, document));;;
+}(jQuery, document));
