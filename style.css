@@ -1,0 +1,357 @@
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+.lm-calc__head {
+    margin-bottom: 68px
+}
+
+.lm-calc__body {
+    width: 1100px;
+    height: 140px;
+    position: relative;
+    left: -39px;
+    margin-bottom: 61px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0 0 39px
+}
+
+.lm-calc__note {
+    text-align: center;
+    margin-bottom: 8px
+}
+
+.lm-calc__link {
+    text-align: center
+}
+
+.lm-calc__link .lm-h2__link {
+    line-height: 30px
+}
+
+.lm-calc__col {
+    float: left;
+    position: relative
+}
+
+.lm-calc__caption {
+    position: absolute;
+    top: -28px;
+    left: 0;
+    opacity: 0.75;
+    font-size: 18px;
+    line-height: 18px;
+    white-space: nowrap
+}
+
+.lm-calc__rur {
+    display: inline-block;
+    width: 9px;
+    height: 11px;
+    margin-left: 5px;
+    position: relative;
+    top: 1px;
+    vertical-align: middle
+}
+
+.lm-calc__rur_for_string {
+    top: 0;
+    vertical-align: baseline
+}
+
+.lm-calc__percent {
+    vertical-align: middle;
+    display: inline-block;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 29px;
+    margin-left: 5px
+}
+
+.lm-calc__label-wrap {
+    color: #000;
+    font-size: 12px;
+    height: 40px;
+    line-height: 35px;
+    margin-top: 25px;
+}
+
+.lm-calc__label {
+    line-height: 13px;
+    display: inline-block;
+    vertical-align: bottom;
+    cursor: pointer;
+    color: #000
+}
+
+.lm-calc__input-wrap {
+    margin-bottom: 23px
+}
+
+.lm-calc__input {
+    height: 29px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top
+}
+
+.lm-calc__cnt {
+    font-weight: bold;
+    font-size: 16px !important;
+    line-height: 12px !important;
+    margin: 0 !important;
+    color: #000;
+    width: 98px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 !important;
+    border: 0 !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: transparent;
+    display: block;
+    white-space: nowrap
+}
+
+.lm-calc__val {
+    font-size: 12px;
+    line-height: 13px;
+    color: #000
+}
+
+.lm-calc__line {
+    position: relative;
+    font-weight: bold;
+    font-size: 16px;
+    white-space: nowrap
+}
+
+.lm-calc__cnt_for_step15 {
+    display: inline-block;
+    width: 63px
+}
+
+.lm-calc__line .lm-calc__rur_for_string {
+    position: absolute;
+    top: 5px;
+    left: 50px
+}
+
+.lm-calc__disabled {
+    opacity: 0.15
+}
+
+.lm-calc__label_weight_bold {
+    font-weight: bold
+}
+
+.lm-calc__label_color_red {
+    color: #c90000
+}
+
+.lm-calc__cnt_has_border {
+    border: 1px solid #bcaa8d !important;
+    background: #fff;
+    padding: 0 5px !important;
+    margin-top: -9px !important
+}
+
+.lm-calc__input_has_opacity {
+    border-color: rgba(188, 170, 141, 0.25) !important;
+    background: rgba(255, 255, 255, 0.25)
+}
+
+.lm-calc__minus {
+    color: #c90000
+}
+
+.lm-calc__hint {
+    position: absolute;
+    top: 72px;
+    left: 7px;
+    width: 305px;
+    font-family: 'PT Sans';
+    font-size: 12px;
+    line-height: 12px;
+    color: #000;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.lm-calc__hint-inner {
+    margin-top: 85px
+}
+
+.lm-calc__hint:before {
+    position: absolute;
+    height: 75px;
+    width: 1px;
+    top: 0;
+    left: 1px;
+    content: '';
+    background: #000;
+    opacity: 0.25
+}
+
+.lm-calc__hint_pos_center {
+    left: -165px
+}
+
+.lm-calc__hint_pos_center:before {
+    left: 170px
+}
+
+.lm-calc__col_ind_1 {
+    width: 144px
+}
+
+.lm-calc__col_ind_1 .lm-calc__input {
+    width: 92px
+}
+
+.lm-calc__col_ind_2 {
+    width: 109px
+}
+
+.lm-calc__col_ind_2 .lm-calc__input {
+    width: 54px
+}
+
+.lm-calc__col_ind_3 {
+    width: 105px
+}
+
+.lm-calc__col_ind_3 .lm-calc__input {
+    width: 48px
+}
+
+.lm-calc__col_ind_4 {
+    width: 118px
+}
+
+.lm-calc__col_ind_4 .lm-calc__input {
+    width: 48px
+}
+
+.lm-calc__col_ind_5 {
+    width: 92px
+}
+
+.lm-calc__col_ind_5 .lm-calc__input {
+    width: 48px
+}
+
+.lm-calc__col_ind_6 {
+    width: 155px
+}
+
+.lm-calc__col_ind_6 .lm-calc__input {
+    width: 93px
+}
+
+.lm-calc__col_ind_7 {
+    width: 101px
+}
+
+.lm-calc__col_ind_7 .lm-calc__input {
+    width: 48px
+}
+
+.lm-calc__col_ind_8 .lm-calc__input {
+    width: 108px
+}
+
+.lm-calc__text {
+    color: #000 !important;
+    transition: none
+}
+
+.lm-calc__spec {
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    max-width: 50px;
+    vertical-align: bottom
+}
+
+.lm-calc__spec_width_middle {
+    max-width: 84px
+}
+
+.lm-calc__spec_color_red {
+    color: #c90000
+}
+
+@media (max-width: 800px) {
+    .lm-calc__body-wrap {
+        width: 712px;
+        margin: 0 auto
+    }
+
+    .lm-calc__body {
+        -webkit-transform: scale(0.7);
+        -moz-transform: scale(0.7);
+        -o-transform: scale(0.7);
+        transform: scale(0.7);
+        -webkit-transform-origin: 0 0;
+        -moz-transform-origin: 0 0;
+        -o-transform-origin: 0 0;
+        transform-origin: 0 0;
+        left: 0;
+        margin-bottom: 0
+    }
+
+    .lm-calc__note {
+        font-size: 16px;
+        margin-top: 13px;
+        line-height: 18px;
+        margin-bottom: 2px
+    }
+
+    .lm-calc__link .lm-h2__link {
+        line-height: 16px
+    }
+
+    .lm-calc__link {
+        font-size: 16px;
+        line-height: 16px;
+        margin-bottom: 13px
+    }
+
+    .lm-calc__head {
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+        margin-bottom: 35px;
+        margin-top: 13px
+    }
+
+    .lm-calc__caption {
+        font-family: 'PT Sans';
+        font-weight: bold
+    }
+}
+
+@media (max-width: 730px) {
+    .lm-calc__body-wrap {
+        display: none
+    }
+}
+
+@media (max-width: 569px) {
+    .lm-calc__note, .lm-calc__link .lm-h2__link {
+        font-size: 14px;
+        line-height: 16px
+    }
+}
